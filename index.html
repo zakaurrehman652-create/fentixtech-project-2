@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog-Z | Photo & Video Gallery</title>
+    <meta name="description" content="Catalog-Z is a beautiful gallery template for photos and videos, built with HTML, CSS, and Flexbox.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="main-navbar">
+        <div class="nav-container">
+            <a href="#" class="navbar-brand" id="brand-logo">
+                <i class="fas fa-film"></i>
+                Catalog-Z
+            </a>
+            <button class="navbar-toggler" id="nav-toggler" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#" class="nav-link active" id="nav-photos">Photos</a></li>
+                <li><a href="#" class="nav-link" id="nav-videos">Videos</a></li>
+                <li><a href="#" class="nav-link" id="nav-about">About</a></li>
+                <li><a href="#" class="nav-link" id="nav-contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Search -->
+    <div class="hero" id="hero-section">
+        <div class="hero-overlay"></div>
+        <form class="search-form" id="search-form">
+            <input type="search" class="search-input" id="search-input" placeholder="Search" aria-label="Search">
+            <button type="submit" class="search-btn" id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container" id="main-content">
+        <!-- Section Header -->
+        <div class="section-header" id="section-header">
+            <h2 class="section-title" id="section-title">Latest Photos</h2>
+            <div class="page-info" id="page-info">
+                Page <input type="text" value="1" size="1" class="page-input" id="page-input"> of 200
+            </div>
+        </div>
+
+        <!-- Photo Gallery Grid -->
+        <div class="gallery" id="photo-gallery">
+            <!-- Card 1 -->
+            <div class="gallery-item" id="gallery-item-1">
+                <figure class="gallery-figure">
+                    <img src="img/img-01.jpg" alt="Hangers" class="gallery-img" loading="lazy">
+                    <figcaption class="gallery-caption">
+                        <h2>Hangers</h2>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+                <div class="gallery-meta">
+                    <span class="meta-date">24 Sep 2020</span>
+                    <span class="meta-views">16,008 views</span>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="gallery-item" id="gallery-item-2">
+                <figure class="gallery-figure">
+                    <img src="img/img-02.jpg" alt="Perfumes" class="gallery-img" loading="lazy">
+                    <figcaption class="gallery-caption">
+                        <h2>Perfumes</h2>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+                <div class="gallery-meta">
+                    <span class="meta-date">20 Sep 2020</span>
+                    <span class="meta-views">12,860 views</span>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="gallery-item" id="gallery-item-3">
+                <figure class="gallery-figure">
+                    <img src="img/img-03.jpg" alt="Clocks" class="gallery-img" loading="lazy">
+                    <figcaption class="gallery-caption">
+                        <h2>Clocks</h2>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+                <div class="gallery-meta">
+                    <span class="meta-date">18 Oct 2020</span>
+                    <span class="meta-views">9,906 views</span>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="gallery-item" id="gallery-item-4">
+                <figure class="gallery-figure">
+                    <img src="img/img-04.jpg" alt="Plants" class="gallery-img" loading="lazy">
+                    <figcaption class="gallery-caption">
+                        <h2>Plants</h2>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+                <div class="gallery-meta">
+                    <span class="meta-date">14 Oct 2020</span>
+                    <span class="meta-views">16,100 views</span>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="gallery-item" id="gallery-item-5">
+                <figure class="gallery-figure">
+                    <img src="img/img-05.jpg" alt="Morning" class="gallery-img" loading="lazy">
+                    <figcaption class="gallery-caption">
+                        <h2>Morning</h2>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+                <div class="gallery-meta">
+                    <span class="meta-date">12 Oct 2020</span>
+                    <span class="meta-views">12,460 views</span>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="gallery-item" id="gallery-item-6">
+                <figure class="gallery-figure">
+                    <img src="img/img-06.jpg" alt="Pinky" class="gallery-img" loading="lazy">
+                    <figcaption class="gallery-caption">
+                        <h2>Pinky</h2>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+                <div class="gallery-meta">
+                    <span class="meta-date">10 Oct 2020</span>
+                    <span class="meta-views">11,402 views</span>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="gallery-item" id="gallery-item-7">
+                <figure class="gallery-figure">
+                    <img src="img/img-07.jpg" alt="Bus" class="gallery-img" loading="lazy">
+                    <figcaption class="gallery-caption">
+                        <h2>Bus</h2>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+                <div class="gallery-meta">
+                    <span class="meta-date">16 Sep 2020</span>
+                    <span class="meta-views">10,900 views</span>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="gallery-item" id="gallery-item-8">
+                <figure class="gallery-figure">
+                    <img src="img/img-08.jpg" alt="New York" class="gallery-img" loading="lazy">
+                    <figcaption class="gallery-caption">
+                        <h2>New York</h2>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+                <div class="gallery-meta">
+                    <span class="meta-date">12 Sep 2020</span>
+                    <span class="meta-views">11,300 views</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination" id="pagination">
+            <a href="#" class="btn btn-prev disabled" id="btn-prev">Previous</a>
+            <div class="page-numbers" id="page-numbers">
+                <a href="#" class="page-link active">1</a>
+                <a href="#" class="page-link">2</a>
+                <a href="#" class="page-link">3</a>
+                <a href="#" class="page-link">4</a>
+            </div>
+            <a href="#" class="btn btn-next" id="btn-next">Next Page</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="main-footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-about" id="footer-about">
+                    <h3 class="footer-title">About Catalog-Z</h3>
+                    <p>Catalog-Z is a free HTML/CSS template for video and photo websites. You can freely use this layout for a front-end integration with any kind of CMS website.</p>
+                </div>
+                <div class="footer-links-col" id="footer-links">
+                    <h3 class="footer-title">Our Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Our Company</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social-col" id="footer-social">
+                    <ul class="social-links">
+                        <li><a href="https://facebook.com" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://instagram.com" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://pinterest.com" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a></li>
+                    </ul>
+                    <a href="#" class="footer-policy-link">Terms of Use</a>
+                    <a href="#" class="footer-policy-link">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom" id="footer-bottom">
+                <span>Copyright 2020 Catalog-Z Company. All rights reserved.</span>
+                <span>Designed by <a href="https://templatemo.com" class="footer-designer-link" target="_blank" rel="noopener">TemplateMo</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile navigation toggle
+        document.getElementById('nav-toggler').addEventListener('click', function() {
+            document.getElementById('nav-links').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
